@@ -16,4 +16,4 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiao
 
 # Dolby
 git clone https://github.com/sweet-stuffs/proprietary_vendor_sony_dolby.git vendor/sony/dolby -b 16
-git clone https://github.com/sweet-stuffs/android_packages_apps_LunarisDolby.git packages/apps/LunarisDolby
+git clone https://github.com/manipvlator/android_packages_apps_LunarisDolby.git packages/apps/LunarisDolby
