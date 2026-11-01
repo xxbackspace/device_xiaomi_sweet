@@ -18,6 +18,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_SCREEN_WIDTH := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
