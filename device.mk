@@ -35,6 +35,9 @@ $(call soong_config_set,libcameraservice,ext_lib,//$(LOCAL_PATH):libcameraservic
 PRODUCT_PACKAGES += \
     hwcomposer.sweet
 
+# Dolby
+TARGET_USES_DOLBY := true
+
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
