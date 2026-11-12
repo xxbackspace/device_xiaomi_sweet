@@ -15,3 +15,6 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git hardware/xiao
 # Sony Dolby
 git clone https://github.com/sweet-stuffs/proprietary_vendor_sony_dolby.git vendor/sony/dolby
 git clone https://github.com/manipvlator/android_packages_apps_LunarisDolby.git packages/apps/LunarisDolby # Lunaris Ui
+
+# KProfiles
+git clone https://github.com/manipvlator/android_packages_apps_Kprofiles.git packages/apps/KProfiles
