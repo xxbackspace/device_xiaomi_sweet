@@ -28,3 +28,16 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sweet_global-user 13 TKQ1.221013.002 V14.0.9.0.TKFMIXM release-keys" \
     BuildFingerprint=Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys
+
+# Lunaris Flags
+WITH_GMS := true
+WITH_PIXEL_LAUNCHER := false
+SURFACE_FLINGER_BOOST := true
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_DISABLE_MATLOG := true
+TARGET_ENABLE_BLUR := true
+
+# More Flags
+USE_REALITY_ENGINE := true
+USE_ADVANCED_DISPLAY_COLOR := true

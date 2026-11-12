@@ -115,3 +115,7 @@ $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/miuicamera-sweet/device.mk)
+
+# SurfaceFlinger Refresh Rate Boost
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
