@@ -1,5 +1,5 @@
 # Sm6150 Common
-git clone https://github.com/xxbackspace/device_xiaomi_sm6150-common.git -b lineage-24.0 device/xiaomi/sm6150-common
+git clone https://github.com/xxbackspace/device_xiaomi_sm6150-common.git -b mist device/xiaomi/sm6150-common
 git clone https://gitlab.com/NoPrincessHere/proprietary_vendor_xiaomi_sm6150-common.git -b seventeen vendor/xiaomi/sm6150-common
 
 # Sweet

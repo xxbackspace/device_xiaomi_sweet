@@ -29,3 +29,14 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="sweet_global-user 13 TKQ1.221013.002 V14.0.9.0.TKFMIXM release-keys" \
     BuildFingerprint=Redmi/sweet_global/sweet:13/TKQ1.221013.002/V14.0.9.0.TKFMIXM:user/release-keys
+
+# Mist OS Flags
+MISTOS_MAINTAINER := Beyoncé
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
+TARGET_ENABLE_BLUR := true
+
+# Target Launcher
+TARGET_INCLUDE_PIXEL_LAUNCHER := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
